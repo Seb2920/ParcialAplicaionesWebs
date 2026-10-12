@@ -16,7 +16,7 @@
       "id": 1,
       "machineryCode": "MCH-001",
       "modelId": "MDL-1001",
-      "pitsectionId": "PIT-01",
+      "pitSectionId": "PIT-01",
       "OperatingHours": 50,
       "enginetemperatureC": 75.5,
       "OilPressurePsi": 30.2,
