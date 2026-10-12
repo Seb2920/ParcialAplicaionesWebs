@@ -9,7 +9,7 @@
   "home": {
     "title": "Bienvenido a GeoMIne",
     "subtitle": "La Mejor Supervisión en el Mundo",
-    "inspection-title": "Registros de Inspección",
+    "inspection-title": "Registros de Inspección"
   },
   "inspections": {
     "no-telemetry": "No hay datos de telemetría disponibles.",
@@ -21,6 +21,6 @@
     "new-subtitle": "Añadir nuevos datos de telemetría para la maquinaria",
     "create": "Crear",
     "cancel": "Cancelar",
-    "validation-error": "Las horas de funcionamiento exceden la capacidad disponible. Por favor, verifique las horas máximas de funcionamiento de la maquinaria.",
+    "validation-error": "Las horas de funcionamiento exceden la capacidad disponible. Por favor, verifique las horas máximas de funcionamiento de la maquinaria."
   }
 }
