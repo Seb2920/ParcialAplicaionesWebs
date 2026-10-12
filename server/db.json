@@ -1,0 +1,27 @@
+{
+  "inspection-records": [
+    {
+      "id": 1,
+      "machineryCode": "MCH-001",
+        "inspectedAt": "2024-06-01",
+        "inspectorName": "John Doe",
+        "status": "Active",
+        "inspectionResult": "Passed",
+        "notes": "All systems functional.",
+      "maxOperatingHours": 100
+    }
+  ],
+  "telemetry-readings": [
+    {
+      "id": 1,
+      "machineryCode": "MCH-001",
+      "modelId": "MDL-1001",
+      "pitsectionId": "PIT-01",
+      "OperatingHours": 50,
+      "enginetemperatureC": 75.5,
+      "OilPressurePsi": 30.2,
+      "alertTriggered": false,
+      "registeredAt": "2024-06-01T10:00:00Z"
+    }
+  ]
+}
