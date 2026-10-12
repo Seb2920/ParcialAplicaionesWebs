@@ -5,11 +5,10 @@
 
 export class TelemetryReadingEntity {
     constructor(
-    id= '',
+    id= 0,
+    inspectionRecordId = 0,
     machineryCode= '',
-    modelId= 0,
-    pitSectionId= 0,
-    OperatingHours= 0,
+    vibrationMmS= 0,
     enginetemperatureC= 0,
     OilPressurePsi = 0,
     alertTriggered= false,
@@ -18,9 +17,9 @@ export class TelemetryReadingEntity {
     )
     {
         this.id = id;
+        this.inspectionRecordId = inspectionRecordId;
         this.machineryCode = machineryCode;
-        this.modelId = modelId;
-        this.pitSectionId = pitSectionId;
+        this.vibrationMmS = vibrationMmS;
         this.OperatingHours = OperatingHours;
         this.enginetemperatureC = enginetemperatureC;
         this.OilPressurePsi = OilPressurePsi;

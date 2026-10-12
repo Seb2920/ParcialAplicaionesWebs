@@ -4,14 +4,15 @@
  */
 
 export class InspectionRecordEntity {
-    constructor(id= '', machineryCode ='',  inspectorName ='', status ='', notes='', inspectedAt ='', maxOperatingHours = 0, inspectionResult = '') {
+    constructor(id= '', machineryCode ='', pitSectionId=0,  inspectorName ='', status ='', notes='', inspectedAt ='', OperatingHours = 0) {
         this.id = id;
+        this.pitSectionId = pitSectionId;
         this.machineryCode = machineryCode;
         this.inspectorName = inspectorName;
+        this.OperatingHours = OperatingHours;
         this.status = status;
-        this.inspectionResult = inspectionResult;
         this.notes = notes;
         this.inspectedAt = inspectedAt;
-        this.maxOperatingHours = maxOperatingHours;
+
     }
 }
