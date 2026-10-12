@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import {createPinia} from "pinia";
 import i18n from "./i18n.js";
-import router from "./router.js";
+import router from "router/index.js";
 
 
 import PrimeVue from 'primevue/config';

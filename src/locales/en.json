@@ -9,7 +9,7 @@
   "home": {
     "title": "Welcome to GeoMIne",
     "subtitle": "The Best Supervision on the Wolrd",
-    "inspection-title": "Inspection Records",
+    "inspection-title": "Inspection Records"
   },
   "inspections": {
     "no-telemetry": "No telemetry data available.",
@@ -21,6 +21,6 @@
     "new-subtitle": "Add new telemetry data for machinery",
     "create": "Create",
     "cancel": "Cancel",
-    "validation-error": "Operating hours exceed available capacity. Please check the machinery's maximum operating hours.",
+    "validation-error": "Operating hours exceed available capacity. Please check the machinery's maximum operating hours."
   }
 }

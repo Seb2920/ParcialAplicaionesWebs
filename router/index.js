@@ -7,7 +7,7 @@ const router = createRouter({
     routes: [
         {path: '/', redirect: Home},
         {path: '/home', component: () => import("../src/section/presentation/views/home.vue")},
-        {path: '/telemetry/items/new', component: () => import("../src/section/presentation/views/telemetry-item-new.vue")},
+        {path: '/telemetry/items/new', component: () => import("../src/inspections/presentation/views/new-telemetry.vue")},
         {path: '/:pathMatch(.*)*', component: PageNotFound }
     ]
 })
